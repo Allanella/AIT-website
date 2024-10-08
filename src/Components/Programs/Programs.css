@@ -1,0 +1,20 @@
+
+
+.progs{
+  
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.progra img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.progra{
+    flex-basis:  31%;
+}
