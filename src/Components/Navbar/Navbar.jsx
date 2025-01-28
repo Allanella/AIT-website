@@ -13,6 +13,7 @@ const Navbar = () => {
           <li>Home</li>
           <li>Programs</li>
           <li>Products</li>
+          <li>Testimonials</li>
           <li>Services</li>
           <li><button className='myButton'> Contact us</button></li> {/* Created a button for the Contact us*/}
 

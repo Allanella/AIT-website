@@ -2,6 +2,7 @@
 /* Outfit fonts copied from Google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
+
 * {
   margin: 0;
   padding: 0;
@@ -36,4 +37,11 @@ a {
   cursor: pointer;
   border: 0;
   outline: 0;
+}
+
+.myButton.dark-btn{
+  color: white;
+  background-color: blue;
+  padding-top: 4px;
+  padding-bottom: 10px;
 }

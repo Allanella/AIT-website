@@ -1,0 +1,84 @@
+ .ContPage{
+    position:absolute;
+    left: 50%;
+} 
+
+
+
+.our_contact{
+    position: absolute;
+    right: 60%;
+    margin-top: 70px;
+    
+}
+
+
+.our_contact h4 {
+    color: blueviolet;
+    font-weight: 500;
+    font-size: 25px;
+    
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+
+
+} 
+
+
+.our_contact ul li img{
+    margin-right: 10px;
+}
+
+.our_contact p {
+    max-width: 450px;
+    line-height: 0.3;
+}
+
+.our_contact ul li {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+} 
+
+.Inquiries{
+    float: right;
+    margin-top: 60px;
+   
+
+    
+}
+.Inquiries form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 250px;
+}
+
+.Inquiries form input, .Inquiries form textarea{
+    display: block;
+    width: 100%;
+    color: white;
+    background-color:#000080;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    resize: none;
+
+}
+
+.Inquiries span{
+    display: block;
+    margin: 20px 0;
+}
+
+ .Formbtn{
+   background-color: #000080;
+   padding: 10px;
+   border-radius: 10px;
+   color: aliceblue;
+}
