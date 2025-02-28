@@ -5,12 +5,9 @@ const Tech = () => {
   return (
     <div className='tech navContainer'>
       <div className='MyTechText'>
-        <h1>Crafting Unique Online Experiences</h1>
-        <p>Our commitment is to assist our clients to achieve a more competitive and profitable situation,
-          applying the principles of organization,
-          engineering, methodology and human resources.
-          We develop and apply technologically innovating solutions
-          to satisfy the customer's needs and goals.</p>
+        <h1>Let’s create something extraordinary together!</h1>
+        <p>At iONA Tech, we believe in turning ideas into reality. Whether you’re a startup, a growing business, 
+          or an established brand, we are here to help you stand out, connect, and thrive in the digital space.</p>
 
         <button className='myButton'>Explore more</button>
 

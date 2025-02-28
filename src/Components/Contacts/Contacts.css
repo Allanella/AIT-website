@@ -59,8 +59,8 @@
 .Inquiries form input, .Inquiries form textarea{
     display: block;
     width: 100%;
-    color: white;
-    background-color:#000080;
+    color: black;
+    background-color:white;
     padding: 15px;
     border: 0;
     outline: 0;
@@ -81,4 +81,16 @@
    padding: 10px;
    border-radius: 10px;
    color: aliceblue;
+}
+
+#inputNme:focus {
+background-color:blue;
+}
+
+#inputTel:focus{
+    background-color: blue;
+}
+
+#textArea:focus{
+    background-color: blue;
 }
