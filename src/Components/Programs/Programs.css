@@ -54,3 +54,15 @@ margin-bottom: 10px;
     padding-bottom: 10;
 }
 
+/*..............media queries............*/
+
+@media(max-width:650px){
+    .progs{
+        flex-direction: column;
+    }
+
+    .progra{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+}

@@ -54,3 +54,12 @@
     
 
 }
+
+
+/*-----------------media query---------------*/
+
+@media(max-width:850px){
+    .MyProducts img{
+        flex-direction: column;
+    }
+}

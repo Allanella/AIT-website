@@ -45,3 +45,18 @@ a {
   padding-top: 4px;
   padding-bottom: 10px;
 }
+
+/*.............media query..............*/
+
+@media(max-width:1200px){
+  .navContainer{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .myButton{
+    
+    padding: 14px 22px;
+    
+  }
+
+}

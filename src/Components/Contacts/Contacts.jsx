@@ -50,7 +50,7 @@ const Contacts = () => {
 
                 <ul>
 
-                    <li> <img src={gmail} alt='' />Contact@ArolaInst.com </li>
+                    <li> <img src={gmail} alt='' />Contact@IonaInst.com </li>
                     <li> <img src={tel}  alt='' /> +256700966715  </li>
                     <li> <img src={boxx} alt='' />P.O BOX 1491</li>
                     <li> <img src={loca} alt=''/>Kampala, Uganda</li>
@@ -60,11 +60,11 @@ const Contacts = () => {
             <div className='Inquiries'>
                 <form onSubmit={onSubmit}>
                      <label>Name</label>
-                     <input type='text'name='name' placeholder='Enter your name' required />
+                     <input type='text'name='name' placeholder='Enter your name' required id='inputNme' />
                      <label>Phone number</label>
-                     <input type='tel' name='phone' placeholder='Enter your telephone number' required/>
+                     <input type='tel' name='phone' placeholder='Enter your telephone number' id='inputTel' required/>
                      <label>Write a message</label>
-                    <textarea name='message' rows={6} placeholder='Enter your message here'/>
+                    <textarea name='message' rows={6} placeholder='Enter your message here' id='textArea'/>
                     <button type='submit' className='Formbtn'>Submit now</button>
 
                       
