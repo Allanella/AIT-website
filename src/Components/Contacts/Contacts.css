@@ -1,96 +1,144 @@
- .ContPage{
-    position:absolute;
-    left: 50%;
-} 
-
-
-
-.our_contact{
-    position: absolute;
-    right: 60%;
-    margin-top: 70px;
-    
+.contact_us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
 
+.ContPage {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.our_contact {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
 
 .our_contact h4 {
     color: blueviolet;
     font-weight: 500;
     font-size: 25px;
-    
-
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-
-
-
-} 
-
-
-.our_contact ul li img{
-    margin-right: 10px;
 }
 
-.our_contact p {
-    max-width: 450px;
-    line-height: 0.3;
+.our_contact ul {
+    list-style-type: none;
+    padding: 0;
 }
 
 .our_contact ul li {
     display: flex;
     align-items: center;
-    margin: 20px 0;
-} 
-
-.Inquiries{
-    float: right;
-    margin-top: 60px;
-   
-
-    
+    margin-bottom: 15px;
 }
+
+.our_contact ul li img {
+    margin-right: 10px;
+}
+
+.our_contact p {
+    max-width: 450px;
+    line-height: 1.5;
+}
+
+/* Form styling */
+.Inquiries {
+    width: 100%;
+    max-width: 600px;
+}
+
 .Inquiries form {
     display: flex;
     flex-direction: column;
-    margin-right: 250px;
 }
 
-.Inquiries form input, .Inquiries form textarea{
-    display: block;
-    width: 100%;
-    color: black;
-    background-color:white;
+.Inquiries form input, 
+.Inquiries form textarea {
+    width: 100%; /* Full width */
     padding: 15px;
-    border: 0;
-    outline: 0;
-    margin-bottom: 15px;
-    margin-top: 5px;
+    border: 1px solid #ccc;
     border-radius: 10px;
-    resize: none;
-
+    margin-bottom: 15px;
+    font-size: 16px;
 }
 
-.Inquiries span{
-    display: block;
-    margin: 20px 0;
+.Formbtn {
+    background-color: #000080;
+    padding: 12px;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
- .Formbtn{
-   background-color: #000080;
-   padding: 10px;
-   border-radius: 10px;
-   color: aliceblue;
+.Formbtn:hover {
+    background-color: #1a1aff;
 }
 
-#inputNme:focus {
-background-color:blue;
+/* Focus styles */
+#inputNme:focus,
+#inputTel:focus,
+#textArea:focus {
+    background-color: #e0e0ff;
 }
 
-#inputTel:focus{
-    background-color: blue;
+/* ✅ Media Queries for Responsive Layout */
+
+/* Medium screens (tablets) */
+@media (max-width: 768px) {
+    .contact_us {
+        padding: 15px;
+    }
+
+    .our_contact, .Inquiries {
+        max-width: 100%; /* Take full width */
+    }
+
+    .our_contact h4 {
+        font-size: 22px;
+    }
+
+    .our_contact ul li {
+        font-size: 16px;
+    }
+
+    .Inquiries form input, 
+    .Inquiries form textarea {
+        padding: 12px;
+        font-size: 14px;
+    }
 }
 
-#textArea:focus{
-    background-color: blue;
+/* Small screens (phones) */
+@media (max-width: 480px) {
+    .contact_us {
+        padding: 10px;
+    }
+
+    .our_contact h4 {
+        font-size: 18px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .our_contact ul li {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .Inquiries form input, 
+    .Inquiries form textarea {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .Formbtn {
+        padding: 10px;
+        font-size: 14px;
+    }
 }

@@ -1,65 +1,45 @@
-.pro{
-    position: absolute;
-    text-align: center;
-    top: 100px;
-    right: 500px;
-    padding: 0;
-    margin: 0;
-    
-
+.MyProducts {
+  margin-top: 200px;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-direction: row; /* Ensure horizontal layout */
+  flex-wrap: wrap; /* Allow wrapping if necessary */
+  height: auto; /* Adjust height based on content */
 }
 
-.cus{
-    
-    position: relative;
-    top: 150px;
-    right: 500px;
-    left: 130px;
-    margin-right: 4px;
-    border-radius: 10px;
-   
-}
-.light{
-    height: 196px;
-    width: 300px;
-    position: relative;
-    top: -50px;
-    right: 600px;
-    left: 200px;
-    border-radius: 10px;
+.product_image {
+  width: auto;
+  max-width: 100%; /* Keep it responsive within container */
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  margin: 10px;
 }
 
-.driver{
-    position: relative;
-    left: 250px;
-    bottom: 50px;
-    height: 194px;
-    width: 300px;
-    border-radius: 10px;
-}
-.MyProducts{
-    
-    justify-content: center;
-    padding-right: 50px;
-    margin-right: 5px;
-    
-    
-
+/* For medium screens */
+@media (max-width: 980px) {
+  .product_image {
+      max-width: 300px;
+  }
 }
 
-.myButton  img{
-    width: 27px;
-    height: 27px;
-    margin-bottom: -10px;
-    
-
+/* For smaller screens */
+@media (max-width: 760px) {
+  .product_image {
+      max-width: 250px;
+  }
 }
 
-
-/*-----------------media query---------------*/
-
-@media(max-width:850px){
-    .MyProducts img{
-        flex-direction: column;
-    }
+/* For extra small screens */
+@media (max-width: 649px) {
+  .MyProducts {
+      flex-direction: row; /* Keep them in a row even on smaller screens */
+      gap: 10px; /* Reduce gap to prevent overflow */
+  }
+  .product_image {
+      max-width: 100%; /* Adjust size based on container */
+  }
 }
