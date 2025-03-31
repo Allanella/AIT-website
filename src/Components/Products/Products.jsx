@@ -1,22 +1,21 @@
-import React from 'react'
-import './Products.css'
-import cust from '../../assets/cust.png'
-import LightCode from '../../assets/LightCode.jpeg'
-import DriverCode from '../../assets/DriverCode.jpeg'
-import arrow from '../../assets/arrow.webp'
+import React from "react";
+import "./Products.css";
+import Driver from "../../assets/Driver.jpg";
+import Phone from "../../assets/Phone.jpg";
+import Pc from "../../assets/Pc.jpg";
+import arrow from "../../assets/arrow.webp";
 
 const Products = () => {
   return (
-    <div className='MyProducts'>
-      <h3 className='pro'>Our products</h3>
-       <img className='cus'  src= {cust} alt='' />
-       <img className='light' src={LightCode} alt='' />
-       <img className='driver' src={DriverCode} alt='' />
-       <button className='myButton dark-btn'>see more here <img src={arrow} alt=''/> </button>
-
-
+    <div className="MyProducts">
+      <h3 className="pro">Our products</h3>
+      <div>
+        <img className="product_image" src={Driver} alt="" />
+        <img className="product_image" src={Phone} alt="" />
+        <img className="product_image" src={Pc} alt="" />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Products
+export default Products;

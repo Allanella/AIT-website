@@ -45,7 +45,7 @@ const Contacts = () => {
             </div>
             <div className='our_contact'>
                 <h4>Send us a message <img src={mess} alt="" /></h4>
-                <p>Let us know how we can help you. We'd love to hear from you</p>
+                
 
 
                 <ul>

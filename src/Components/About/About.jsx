@@ -1,12 +1,12 @@
 import React from "react";
 import "./About.css";
-import collabo from "../../assets/collabo.webp";
+import Afrikan from "../../assets/Afrikan.jpg";
 
 const About = () => {
   return (
     <div>
       <div className="collab">
-        <img className="cola" src={collabo} alt="" />
+        <img className="cola" src={Afrikan} alt="" />
       </div>
       <div className="descrip">
         <h2 className="abt">About us</h2>
