@@ -100,7 +100,7 @@ const Testimonials = () => {
                 <h3>Baliddawa Allan</h3>
               </div>
               <p>
-                I'm a passionate and skilled Fullstack Web Developer with a
+                Iam a passionate and skilled Fullstack Web Developer with a
                 strong background in both front-end and back-end development. I
                 specialize in building responsive, user-friendly, and scalable
                 web applications using modern technologies. My expertise
