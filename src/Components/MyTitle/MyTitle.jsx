@@ -1,5 +1,5 @@
 import React from 'react'
-import './myTitle.css'
+import './MyTitle.css'
 
 const myTitle = () => {
   return (
